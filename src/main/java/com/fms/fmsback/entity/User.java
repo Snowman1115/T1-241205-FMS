@@ -39,22 +39,22 @@ public class User implements Serializable {
     /**
      * Account isNotExpired (0:NO, 1:YES)
      */
-    private Integer isAccountNonExpired;
+    private boolean isAccountNonExpired = true;
 
     /**
      * Account isNotLock (0:NO, 1:YES)
      */
-    private Integer isAccountNonLocked;
+    private boolean isAccountNonLocked = true;
 
     /**
      * Password isNotExpired (0:NO, 1:YES)
      */
-    private Integer isCredentialsNonExpired;
+    private boolean isCredentialsNonExpired = true;
 
     /**
      * Account isEnable (0:NO, 1:YES)
      */
-    private Integer isEnabled;
+    private boolean isEnabled = true;
 
     /**
      * User First Name

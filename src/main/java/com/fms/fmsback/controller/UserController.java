@@ -2,9 +2,9 @@ package com.fms.fmsback.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.fms.common.constants.ResultConstants;
-import com.fms.common.result.Result;
-import com.fms.exception.ServiceException;
+import com.fms.fmsback.common.constants.ResultConstants;
+import com.fms.fmsback.common.result.Result;
+import com.fms.fmsback.exception.ServiceException;
 import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
