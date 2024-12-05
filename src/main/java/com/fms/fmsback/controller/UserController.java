@@ -6,7 +6,7 @@ import com.fms.fmsback.common.constants.ResultConstants;
 import com.fms.fmsback.common.result.Result;
 import com.fms.fmsback.exception.ServiceException;
 import org.springframework.web.bind.annotation.*;
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import java.util.List;
 
 import com.fms.fmsback.service.IUserService;
